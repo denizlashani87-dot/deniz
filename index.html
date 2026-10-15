@@ -1,0 +1,572 @@
+```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Tandorost provides nutrition consulting, personalized meal plans, and wellness guidance for a healthier lifestyle.">
+
+    <meta name="keywords"
+          content="nutrition, healthy eating, wellness, meal plans, تغذیه سالم, سلامتی">
+
+    <meta name="author" content="Tandorost">
+
+    <meta property="og:title" content="Tandorost | Nutrition & Wellness">
+    <meta property="og:description"
+          content="Discover a healthier lifestyle through balanced nutrition and personalized wellness guidance.">
+    <meta property="og:type" content="website">
+
+    <title>Tandorost | تغذیه و سلامتی</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="language-persian">
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-container">
+
+            <a href="#home" class="logo" aria-label="Tandorost Home">
+                <span class="logo-icon">✳</span>
+                <span>Tandorost</span>
+            </a>
+
+            <button id="menu-toggle"
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="main-nav" class="main-nav">
+                <a href="#home" data-i18n="nav-home">خانه</a>
+                <a href="#about" data-i18n="nav-about">درباره ما</a>
+                <a href="#services" data-i18n="nav-services">خدمات</a>
+                <a href="#articles" data-i18n="nav-articles">مقالات</a>
+                <a href="#contact" data-i18n="nav-contact">تماس با ما</a>
+            </nav>
+
+            <div class="header-actions">
+                <button id="language-toggle"
+                        class="language-toggle"
+                        type="button"
+                        aria-label="Switch language">
+                    EN
+                </button>
+
+                <a href="#contact" class="button button-small">
+                    مشاوره
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero / Banner -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <span class="eyebrow">
+                        NUTRITION · WELLNESS · LIFESTYLE
+                    </span>
+
+                    <h1 data-i18n="hero-title">
+                        سلامتی شما، اولویت ماست
+                    </h1>
+
+                    <p data-i18n="hero-description">
+                        با تغذیه اصولی و سبک زندگی سالم، به نسخه بهتر خودتان
+                        تبدیل شوید.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#services"
+                           class="button"
+                           data-i18n="hero-button">
+                            مشاهده خدمات
+                        </a>
+
+                        <a href="#about" class="button button-outline">
+                            بیشتر بدانید
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <span>✓ راهکارهای متناسب با شما</span>
+                        <span>✓ تمرکز بر عادت‌های پایدار</span>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1100&q=85"
+                        alt="A colorful selection of healthy foods"
+                        fetchpriority="high">
+
+                    <div class="image-badge">
+                        <span class="badge-icon">🌿</span>
+                        <div>
+                            <strong>Live Well</strong>
+                            <p>Eat Better · Feel Better</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Highlights -->
+        <section class="highlights">
+            <div class="container highlights-grid">
+
+                <div class="highlight-item">
+                    <span class="highlight-icon">🥗</span>
+                    <div>
+                        <h3>تغذیه متعادل</h3>
+                        <p>انتخاب‌های غذایی آگاهانه</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <span class="highlight-icon">🌱</span>
+                    <div>
+                        <h3>عادت‌های سالم</h3>
+                        <p>تغییرات کوچک و ماندگار</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <span class="highlight-icon">💚</span>
+                    <div>
+                        <h3>سلامتی پایدار</h3>
+                        <p>توجه به کیفیت زندگی</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section about-section">
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85"
+                        alt="Fresh ingredients and a healthy meal"
+                        loading="lazy">
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">ABOUT TANDOROST</span>
+
+                    <h2 data-i18n="about-title">
+                        درباره تندرست
+                    </h2>
+
+                    <p data-i18n="about-description">
+                        ما به شما کمک می‌کنیم با انتخاب‌های غذایی آگاهانه،
+                        عادت‌های سالم و برنامه‌ای متناسب با نیازهایتان،
+                        مسیر سلامتی را با اطمینان طی کنید.
+                    </p>
+
+                    <ul class="check-list">
+                        <li>توجه به نیازها و ترجیحات فردی</li>
+                        <li>تمرکز بر تغذیه متعادل و متنوع</li>
+                        <li>توصیه‌های کاربردی برای زندگی روزمره</li>
+                        <li>رویکردی واقع‌بینانه و پایدار</li>
+                    </ul>
+
+                    <a href="#contact" class="text-link">
+                        با ما آشنا شوید ←
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Services -->
+        <section id="services" class="section services-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">WHAT WE OFFER</span>
+
+                    <h2 data-i18n="services-title">
+                        خدمات ما
+                    </h2>
+
+                    <p>
+                        راهکارهایی برای کمک به شما در مسیر تغذیه بهتر
+                        و زندگی سالم‌تر.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon">🥑</div>
+
+                        <h3 data-i18n="service-one-title">
+                            مشاوره تغذیه
+                        </h3>
+
+                        <p data-i18n="service-one-description">
+                            راهنمایی برای انتخاب غذاهای سالم و ایجاد
+                            عادت‌های غذایی پایدار.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            درخواست اطلاعات ←
+                        </a>
+                    </article>
+
+                    <article class="service-card featured-card">
+                        <div class="service-icon">🍽️</div>
+
+                        <h3 data-i18n="service-two-title">
+                            برنامه غذایی شخصی
+                        </h3>
+
+                        <p data-i18n="service-two-description">
+                            برنامه غذایی متناسب با اهداف، ترجیحات و
+                            سبک زندگی شما.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            درخواست اطلاعات ←
+                        </a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🌿</div>
+
+                        <h3 data-i18n="service-three-title">
+                            سلامتی و سبک زندگی
+                        </h3>
+
+                        <p data-i18n="service-three-description">
+                            راهکارهایی برای بهبود عادت‌های روزانه،
+                            انرژی و کیفیت زندگی.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            درخواست اطلاعات ←
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Healthy Lifestyle Banner -->
+        <section class="wellness-banner">
+            <div class="container wellness-content">
+
+                <div>
+                    <span class="eyebrow">YOUR WELLNESS JOURNEY</span>
+
+                    <h2>
+                        تغییرات کوچک، نتایج ماندگار
+                    </h2>
+
+                    <p>
+                        مسیر سلامتی از انتخاب‌های روزمره آغاز می‌شود.
+                        امروز یک قدم کوچک برای خودتان بردارید.
+                    </p>
+                </div>
+
+                <a href="#contact" class="button button-light">
+                    شروع گفتگو
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- Articles -->
+        <section id="articles" class="section articles-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">LEARN & GROW</span>
+
+                    <h2 data-i18n="articles-title">
+                        مقالات و مطالب آموزشی
+                    </h2>
+
+                    <p>
+                        ایده‌هایی ساده و کاربردی برای انتخاب‌های سالم‌تر.
+                    </p>
+                </div>
+
+                <div class="articles-grid">
+
+                    <article class="article-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+                            alt="Fresh vegetable salad"
+                            loading="lazy">
+
+                        <div class="article-content">
+                            <span class="article-category">
+                                تغذیه سالم
+                            </span>
+
+                            <h3>
+                                چگونه یک بشقاب غذایی متعادل بسازیم؟
+                            </h3>
+
+                            <p>
+                                با شناخت گروه‌های غذایی، انتخاب‌های
+                                روزانه خود را آگاهانه‌تر کنید.
+                            </p>
+
+                            <a href="#contact" class="text-link">
+                                ادامه مطلب ←
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="article-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1505576399274-565b52d4ac71?auto=format&fit=crop&w=800&q=80"
+                            alt="Healthy ingredients and vegetables"
+                            loading="lazy">
+
+                        <div class="article-content">
+                            <span class="article-category">
+                                سبک زندگی
+                            </span>
+
+                            <h3>
+                                راهکارهایی برای ساخت عادت‌های سالم
+                            </h3>
+
+                            <p>
+                                چطور با قدم‌های کوچک، عادت‌های مفید
+                                را در زندگی روزمره حفظ کنیم؟
+                            </p>
+
+                            <a href="#contact" class="text-link">
+                                ادامه مطلب ←
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="article-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+                            alt="Fresh vegetables for meal preparation"
+                            loading="lazy">
+
+                        <div class="article-content">
+                            <span class="article-category">
+                                برنامه‌ریزی غذایی
+                            </span>
+
+                            <h3>
+                                برنامه‌ریزی ساده برای وعده‌های غذایی
+                            </h3>
+
+                            <p>
+                                برای روزهای شلوغ، از قبل برای وعده‌های
+                                غذایی خود برنامه‌ریزی کنید.
+                            </p>
+
+                            <a href="#contact" class="text-link">
+                                ادامه مطلب ←
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+                    <span class="eyebrow">LET'S CONNECT</span>
+
+                    <h2 data-i18n="contact-title">
+                        با ما در ارتباط باشید
+                    </h2>
+
+                    <p data-i18n="contact-description">
+                        برای دریافت اطلاعات بیشتر درباره خدمات ما،
+                        پیام خود را ارسال کنید.
+                    </p>
+
+                    <div class="contact-details">
+
+                        <div class="contact-detail">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <strong>ایمیل</strong>
+                                <p>hello@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-icon">🌐</span>
+                            <div>
+                                <strong>خدمات بین‌المللی</strong>
+                                <p>ارتباط با مشتریان داخلی و خارجی</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p class="contact-note">
+                        قبل از انتشار سایت، ایمیل و اطلاعات تماس واقعی
+                        کسب‌وکار خود را جایگزین کنید.
+                    </p>
+                </div>
+
+
+                <form id="contact-form" class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name" data-i18n="form-name">
+                            نام و نام خانوادگی
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="نام خود را وارد کنید"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" data-i18n="form-email">
+                            ایمیل
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="name@example.com"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" data-i18n="form-message">
+                            پیام شما
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="چطور می‌توانیم به شما کمک کنیم؟"
+                            required></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="button form-submit"
+                        data-i18n="form-submit">
+                        ارسال پیام
+                    </button>
+
+                    <p class="form-note">
+                        با ارسال فرم، برنامه ایمیل شما برای ارسال پیام
+                        باز خواهد شد.
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-icon">✳</span>
+                    <span>Tandorost</span>
+                </a>
+
+                <p data-i18n="footer-text">
+                    تندرست؛ همراه شما در مسیر زندگی سالم.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#about">درباره ما</a>
+                <a href="#services">خدمات</a>
+                <a href="#articles">مقالات</a>
+                <a href="#contact">تماس</a>
+            </div>
+
+            <div class="social-links">
+                <!-- Replace # with your real profile URLs -->
+                <a href="#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    LinkedIn
+                </a>
+
+                <a href="#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram">
+                    Instagram
+                </a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                © <span id="current-year"></span> Tandorost.
+                All rights reserved.
+            </p>
+
+            <p>
+                اطلاعات این وب‌سایت جنبه آموزشی دارد و جایگزین
+                مشاوره پزشکی یا تغذیه تخصصی نیست.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
